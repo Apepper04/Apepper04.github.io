@@ -1,0 +1,143 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #227C9D;
+}
+
+header {
+    padding: 25px;
+}
+
+.title {
+    font-size: 2em;
+}
+
+.flex-container {
+    display: flex;
+    /* background-color: navy;*/
+    flex-direction: column;
+}
+  
+.flex-item {
+    /* background-color: slategray; */
+    margin: 0px;
+    padding: 0px;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.home-icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 50px;
+}
+.back-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 50px;
+}
+
+h1 {
+    text-align: center;
+    color: #FEF9EF;
+    padding: 0;
+    padding-bottom: 10px;
+    margin: 0;
+    line-height: 1em;
+}
+
+.recipeCard {
+    /* background-color: orange; */
+    padding: 0px;
+    margin: 0px;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: none;
+    color: #FEF9EF;
+}
+
+.recipeButton {
+    background-color: #227C9D;
+    border-radius: 10px;
+    font-size: 1em;
+    color: #FEF9EF;
+    padding: 0px;
+    padding-bottom: 4px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.recipeButton h2 {
+    margin: 0;
+    padding: 5px;
+}
+
+.flex-categoryButton {
+    background-color: greenyellow;
+    width: 165px;
+    height: 165px;
+    margin: 10px;
+    padding: 0px;
+    border: none;
+    border-radius: 10px;
+}
+
+.flex-categoryButton img {
+    width: 65%;
+    height: 65%;
+    border-radius: 10px;
+}
+
+.flex-categoryButton:nth-child(3n + 1) {
+    background-color: #FE6D73;
+}
+.flex-categoryButton:nth-child(3n + 2) {
+    background-color: #FFCB77;
+}
+.flex-categoryButton:nth-child(3n + 3) {
+    background-color: #17C3B2;
+}
+
+.categoryTitle {
+    font-size: 2.25em;
+}
+
+.show {
+    display: block;
+}
+.hide {
+    display: none;
+}
+
+.recipeCard h1 {
+    font-size: 4em;
+    text-transform: uppercase;
+}
+
+.cookTime {
+    font-style: italic;
+    text-align: center;
+    padding: 7px;
+    margin: 7px;
+}
+
+.ingredientsTitle {
+    padding: 0px;
+    margin: 0px;
+}
+
+ul {
+    margin: 0px;
+}
+
+.category {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
